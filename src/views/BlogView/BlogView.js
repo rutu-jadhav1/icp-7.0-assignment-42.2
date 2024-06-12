@@ -18,6 +18,8 @@ function BlogView() {
             </p>
             <img src={selectedBlog.imgURL} className="BlogView-img"/> <br/> <br/>
             {selectedBlog.content}
+            <p className="price">{selectedBlog.price}</p>
+            
         </div>
 
     )

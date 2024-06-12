@@ -14,6 +14,7 @@ const blogs = [
         date: "May 16, 2024",
         categories: ["Android","Realme Technology"], 
         imgURL:realme,  
+       price: " ₹11,499",
     },
     {
         id: "OnePlus 12-002",
@@ -26,6 +27,7 @@ const blogs = [
         date: "January 30, 2024",
         categories: ["Android","OnePlus Technology"], 
         imgURL:onePlus,    
+        price: "₹64,999",
     },
     {
         id: "Apple iPhone 15-003",
@@ -37,7 +39,8 @@ const blogs = [
         },
         date: "September 22, 2024",
         categories: ["Apple","Apple Technology"],   
-        imgURL:iphone,  
+        imgURL:iphone, 
+        price:  "₹73,100", 
     },
     {
         id: "Apple iPhone 15-006",
@@ -49,7 +52,8 @@ const blogs = [
         },
         date: "September 22, 2024",
         categories: ["Apple","Apple Technology"], 
-        imgURL:iphone,    
+        imgURL:iphone,  
+        price:  "₹73,100",  
     },
     {
         id: "realme NARZO N65 5G-005",
@@ -61,7 +65,8 @@ const blogs = [
         },
         date: "May 16, 2023",
         categories: ["ANdroid","Technology"],   
-        imgURL:realme,  
+        imgURL:realme, 
+        price: " ₹11,499", 
     },
     {
         id: "OnePlus 12-004",
@@ -74,6 +79,7 @@ const blogs = [
         date: "January 30, 2024",
         categories: ["Android","OnePlus Technology"],   
         imgURL:onePlus,  
+        price: "₹64,999",
     }
 ]
 
