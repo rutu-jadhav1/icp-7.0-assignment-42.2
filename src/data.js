@@ -1,3 +1,7 @@
+import realme from "./BlogImg/realme.jpg"
+import onePlus from "./BlogImg/OnePlus.jpg"
+import iphone from "./BlogImg/iphone.jpg"
+
 const blogs = [
     {
         id: "realme NARZO N65 5G-001",
@@ -8,7 +12,8 @@ const blogs = [
             avtar: "https://i.pravatar.cc/150?img=3",
         },
         date: "May 16, 2024",
-        categories: ["Android","Realme Technology"],   
+        categories: ["Android","Realme Technology"], 
+        imgURL:realme,  
     },
     {
         id: "OnePlus 12-002",
@@ -19,7 +24,8 @@ const blogs = [
             avtar: "https://i.pravatar.cc/150?img=68",
         },
         date: "January 30, 2024",
-        categories: ["Android","OnePlus Technology"],   
+        categories: ["Android","OnePlus Technology"], 
+        imgURL:onePlus,    
     },
     {
         id: "Apple iPhone 15-003",
@@ -31,6 +37,7 @@ const blogs = [
         },
         date: "September 22, 2024",
         categories: ["Apple","Apple Technology"],   
+        imgURL:iphone,  
     },
     {
         id: "Apple iPhone 15-006",
@@ -41,7 +48,8 @@ const blogs = [
             avtar: "https://i.pravatar.cc/150?img=54",
         },
         date: "September 22, 2024",
-        categories: ["Apple","Apple Technology"],   
+        categories: ["Apple","Apple Technology"], 
+        imgURL:iphone,    
     },
     {
         id: "realme NARZO N65 5G-005",
@@ -53,6 +61,7 @@ const blogs = [
         },
         date: "May 16, 2023",
         categories: ["ANdroid","Technology"],   
+        imgURL:realme,  
     },
     {
         id: "OnePlus 12-004",
@@ -64,6 +73,7 @@ const blogs = [
         },
         date: "January 30, 2024",
         categories: ["Android","OnePlus Technology"],   
+        imgURL:onePlus,  
     }
 ]
 
